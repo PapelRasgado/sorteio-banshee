@@ -6,7 +6,7 @@ import Sorteio from "./components/Sorteio";
 import "./App.css";
 
 function App() {
-  const { data, loading, error } = useGoogleSheets({
+  const { data, loading } = useGoogleSheets({
     apiKey: "AIzaSyCdOcv2zgAnN9D-s-hS33WJw9drrmo3qQc",
     sheetId: "1feYTKrvdT-PmbkdF-Asj8Cutq8DD4oxxexrRR7IHfP0",
   });
